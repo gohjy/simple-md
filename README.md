@@ -12,12 +12,14 @@ Checks for edits every second.
 
 Very basic, expect it to break or not work properly.
 
-## Extra stuff
+## Extra stuff (query params)
 The site will auto adjust to a horizontal or vertical layout based on the viewport siez.
 
-Add `?horiz` to the end of the URL to force a horizontal (side by side) layout, or `?vert` to force a vertical (top and bottom) layout.
+Add `?horiz` to the end of the URL to force a horizontal (side by side) layout, or `?vert` to force a vertical (top and bottom) layout. If both are given (for whatever reason), `horiz` will take precedence.
 
 Add `?hidehelp` to the end of the URL to hide the "What's this?" link to this page.
+
+These can be combined, for example `?horiz&hidehelp` will force a horizontal layout and hide the link.
 
 ## License
 I honestly don't see the point in putting this under anything besides the [MIT License](https://choosealicense.com/licenses/mit/) 
