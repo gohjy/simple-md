@@ -12,6 +12,13 @@ Checks for edits every second.
 
 Very basic, expect it to break or not work properly.
 
+## Extra stuff
+The site will auto adjust to a horizontal or vertical layout based on the viewport siez.
+
+Add `?horiz` to the end of the URL to force a horizontal (side by side) layout, or `?vert` to force a vertical (top and bottom) layout.
+
+Add `?hidehelp` to the end of the URL to hide the "What's this?" link to this page.
+
 ## License
 I honestly don't see the point in putting this under anything besides the [MIT License](https://choosealicense.com/licenses/mit/) 
 (it's *one file* with *ridiculously simple code*), so that's what this repo's under.
