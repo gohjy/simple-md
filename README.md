@@ -13,7 +13,7 @@ Checks for edits every second.
 Very basic, expect it to break or not work properly.
 
 ## Extra stuff (query params)
-The site will auto adjust to a horizontal or vertical layout based on the viewport siez.
+The site will auto adjust to a horizontal or vertical layout based on the viewport size.
 
 Add `?horiz` to the end of the URL to force a horizontal (side by side) layout, or `?vert` to force a vertical (top and bottom) layout. If both are given (for whatever reason), `horiz` will take precedence.
 
